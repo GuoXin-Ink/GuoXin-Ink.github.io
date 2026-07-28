@@ -1,4 +1,4 @@
-import { Publication, PublicationType, ResearchArea } from '@/types/publication';
+import { Publication, PublicationStatus, PublicationType, ResearchArea } from '@/types/publication';
 import { getConfig } from './config';
 import { getRuntimeI18nConfig } from './i18n/config';
 import { parseBibTeXInline } from './bibtexInline';
@@ -19,6 +19,15 @@ const typeMapping: Record<string, PublicationType> = {
   unpublished: 'preprint',
   misc: 'preprint',
 };
+
+const publicationStatuses: PublicationStatus[] = [
+  'published',
+  'accepted',
+  'under-review',
+  'submitted',
+  'in-preparation',
+  'draft',
+];
 
 // Convert month names to numbers
 const monthMapping: Record<string, number> = {
@@ -59,6 +68,9 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
 
     // Parse selected field (convert string to boolean)
     const selected = tags.selected === 'true' || tags.selected === 'yes';
+    const status = publicationStatuses.includes(tags.status as PublicationStatus)
+      ? tags.status as PublicationStatus
+      : 'published';
 
     // Parse preview field (remove braces if present)
     const preview = tags.preview?.replace(/[{}]/g, '');
@@ -73,7 +85,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       year,
       month: monthMapping[tags.month?.toLowerCase()] ? String(month) : tags.month,
       type,
-      status: 'published',
+      status,
       tags: keywords,
       keywords,
       researchArea: detectResearchArea(tags.title, keywords),
@@ -93,7 +105,7 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       preview,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code', 'status']),
     };
 
     // Clean up undefined fields
