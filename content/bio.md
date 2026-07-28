@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a PhD student in intstitude of Geodesy at Graz University of Technology, supervised by [Prof. Tobias Bolch](https://tugraz.elsevierpure.com/de/persons/tobias-bolch/) in [MountCryo Team](https://www.mountcryo.org/).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+Before joining TU Graz, I studied remote sensing and conducted research on rock glacier mapping over the southeastern Tibetan Plateau using deep learning and high-resolution satellite imagery in [Southwest Jiaotong University](https://www.swjtu.edu.cn/)
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My current research focuses on monitoring rock glacier dynamics using satellite InSAR, optical remote sensing, and geospatial analysis, with particular interest in their responses to climate and environmental change.

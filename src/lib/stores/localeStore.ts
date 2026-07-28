@@ -4,7 +4,7 @@ import { create } from 'zustand';
 import { matchLocale } from '@/lib/i18n/config';
 import type { I18nRuntimeConfig } from '@/types/i18n';
 
-const LOCALE_STORAGE_KEY = 'locale-storage';
+const LOCALE_STORAGE_KEY = 'locale-storage-v4';
 
 interface LocaleStore {
   locale: string;
@@ -90,9 +90,7 @@ export const useLocaleStore = create<LocaleStore>()((set, get) => ({
       persistSelection: config.persist,
     });
 
-    if (config.persist) {
-      writePersistedLocale(initialLocale);
-    } else {
+    if (!config.persist) {
       clearPersistedLocale();
     }
 

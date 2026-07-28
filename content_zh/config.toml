@@ -1,18 +1,20 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "Xin Guo"
+description = "Xin Guo 的个人网站。"
+last_updated = "2026年7月28日"
 
 [author]
-name = "刘嘉乐"
+name = "Xin Guo"
 title = "博士生"
-institution = "某某大学"
+institution = """Institute of Geodesy
+Graz University of Technology
+(Technische Universität Graz)"""
 
 [social]
-location = "城市，国家"
+location = "格拉茨，奥地利"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "ST 01 122, Steyrergasse 30,",
+  "8010, Graz, Austria,"
 ]
 
 [[navigation]]
@@ -20,6 +22,12 @@ title = "关于我"
 type = "page"
 target = "about"
 href = "/"
+
+[[navigation]]
+title = "动态"
+type = "page"
+target = "news"
+href = "/news"
 
 [[navigation]]
 title = "论文"

@@ -1,7 +1,16 @@
-[[news]]
-date = "2025-11"
-content = "我们的工作被顶级期刊接收了 🎉"
+type = "news"
+title = "动态"
+description = "记录会议访问、野外工作、科研活动及其他近况。"
 
-[[news]]
-date = "2025-09"
-content = "在某某大学开始博士学习"
+[[items]]
+slug = "personal-website-launch"
+date = "2026-07-28"
+title = "我的个人网站正式上线"
+summary = "这个网站将用于整理我的研究、论文、教学经历，以及今后的野外工作和会议动态。"
+location = "奥地利，格拉茨"
+cover = "/profile-prism.png"
+content = "news/personal-website-launch.md"
+gallery = [
+  "/profile-prism.png",
+  "/papers/example.png"
+]

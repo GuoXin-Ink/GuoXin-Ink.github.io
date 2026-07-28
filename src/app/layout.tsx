@@ -42,7 +42,7 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
   return `
     try {
       const cfg = ${serializedConfig};
-      const storageKey = 'locale-storage';
+      const storageKey = 'locale-storage-v4';
       const normalize = (value) => typeof value === 'string' ? value.trim().replace('_', '-').toLowerCase() : '';
       const matchLocale = (candidate) => {
         const normalized = normalize(candidate);
@@ -77,9 +77,6 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
       root.lang = resolved;
       root.setAttribute('data-locale', resolved);
 
-      if (cfg.persist) {
-        localStorage.setItem(storageKey, resolved);
-      }
     } catch (e) {
       const root = document.documentElement;
       root.lang = '${config.defaultLocale}';
@@ -129,7 +126,12 @@ export default function RootLayout({
   } = buildLocalizedConfigMaps(targetLocales);
 
   return (
-    <html lang={runtimeI18n.defaultLocale} className="scroll-smooth" suppressHydrationWarning>
+    <html
+      lang={runtimeI18n.defaultLocale}
+      className="scroll-smooth"
+      data-scroll-behavior="smooth"
+      suppressHydrationWarning
+    >
       <head>
         <link rel="icon" href={config.site.favicon} type="image/svg+xml" />
         <link rel="dns-prefetch" href="https://jialeliu.com" />

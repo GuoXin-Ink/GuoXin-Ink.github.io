@@ -1,29 +1,30 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Xin Guo"
+description = "Personal website of Xin Guo."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "July 28, 2026"
 
 [author]
-name = "Jiale Liu"
+name = "Xin Guo"
 title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+institution = """Institute of Geodesy
+Graz University of Technology
+(Technische Universität Graz)"""
+avatar = "/profile-xin.jpg"
 
 [social]
-# Contact information (leave blank or delete to hide)
-
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+# Template contact information. Replace these values with your own details later.
+email = "xin.guo@student.tugraz.at"
+location = "Graz, Austria"
+location_url = "https://www.google.com/maps/place/Graz+University+Of+Technology/@47.0641765,15.4527816,185m/data=!3m1!1e3!4m6!3m5!1s0x476e4a85d3955555:0x192b0deae0c79ec4!8m2!3d47.0642547!4d15.4529602!16s%2Fg%2F11hzsvs4ps?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "ST 01 122, Steyrergasse 30,",
+  "8010, Graz, Austria,"
 ]
 google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+orcid = "https://orcid.org/0000-0002-8748-6036"
+github = "https://github.com/GuoXin-Ink"
+linkedin = "https://www.linkedin.com/in/xin-guo-04334b330/"
 
 [features]
 # Show a like button on the about page
@@ -37,7 +38,7 @@ enabled = true
 locales = ["zh", "en"]
 default_locale = "en"
 # "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
-mode = "auto"
+mode = "fixed"
 fixed_locale = "en"
 # If true, PRISM will remember user's language preference in browser's localStorage
 persist = true
@@ -53,6 +54,12 @@ title = "About"
 type = "page"
 target = "about"
 href = "/"
+
+[[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/news"
 
 [[navigation]]
 title = "Publications"
