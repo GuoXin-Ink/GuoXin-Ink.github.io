@@ -68,16 +68,16 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Projects"
+title = "Teaching"
 type = "page"
-target = "projects"
-href = "/projects"
+target = "teaching"
+href = "/teaching"
 
 [[navigation]]
-title = "Skills"
+title = "Services"
 type = "page"
-target = "skills"
-href = "/skills"
+target = "services"
+href = "/services"
 
 [[navigation]]
 title = "CV"
