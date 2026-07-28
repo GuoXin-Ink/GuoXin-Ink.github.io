@@ -1,12 +1,12 @@
 [site]
 title = "Xin Guo"
-description = "Personal website of Xin Guo."
+description = "Xin Guo is a PhD candidate at Graz University of Technology researching rock glacier dynamics, permafrost, InSAR, and remote sensing."
 favicon = "/favicon.svg"
 last_updated = "July 28, 2026"
 
 [author]
 name = "Xin Guo"
-title = "PhD Student"
+title = "PhD Candidate"
 institution = """Institute of Geodesy
 Graz University of Technology
 (Technische Universität Graz)"""
@@ -68,22 +68,16 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Teaching"
+title = "Projects"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
-title = "Awards"
+title = "Skills"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
+target = "skills"
+href = "/skills"
 
 [[navigation]]
 title = "CV"

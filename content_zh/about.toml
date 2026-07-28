@@ -3,11 +3,11 @@ title = "关于我"
 
 [profile]
 research_interests = [
-  "岩石冰川",
-  "InSAR",
-  "遥感",
-  "地理空间分析",
-  "机器学习"
+  "岩石冰川运动学",
+  "InSAR 与光学遥感",
+  "多年冻土地貌学",
+  "深度学习地球观测",
+  "高山环境气候响应"
 ]
 
 [[sections]]
@@ -21,4 +21,4 @@ id = "featured_publications"
 type = "publications"
 title = "精选论文"
 filter = "selected"
-limit = 3
+limit = 2

@@ -6,11 +6,10 @@ description = "记录会议访问、野外工作、科研活动及其他近况�
 slug = "personal-website-launch"
 date = "2026-07-28"
 title = "我的个人网站正式上线"
-summary = "这个网站将用于整理我的研究、论文、教学经历，以及今后的野外工作和会议动态。"
+summary = "这个网站将用于整理我的研究、论文、科研项目和专业技能，以及今后的野外工作与会议动态。"
 location = "奥地利，格拉茨"
 cover = "/profile-prism.png"
 content = "news/personal-website-launch.md"
 gallery = [
-  "/profile-prism.png",
-  "/papers/example.png"
+  "/profile-prism.png"
 ]

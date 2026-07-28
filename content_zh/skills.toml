@@ -1,0 +1,26 @@
+type = "card"
+title = "专业技能"
+description = "遥感与冰冻圈研究中使用的技术工具和研究方法。"
+
+[[items]]
+title = "InSAR 数据处理"
+content = "具备干涉 SAR 数据处理与时序分析经验。"
+tags = ["ISCE2", "GAMMA", "MintPy", "StaMPS", "EZ-InSAR", "ESIS"]
+
+[[items]]
+title = "机器学习"
+content = "面向地球观测的深度学习流程，包括图像分割与图像分类。"
+tags = ["PyTorch", "图像分割", "图像分类", "深度学习"]
+
+[[items]]
+title = "可视化与 GIS"
+content = "地理空间分析、地图可视化与科研制图。"
+tags = ["GMT", "Origin", "Mirone", "QGIS"]
+
+[[items]]
+title = "语言能力"
+content = "中文（母语）、英语（熟练）、德语（学习中）。"
+
+[[items]]
+title = "通用能力"
+content = "学术写作与科研项目管理。"

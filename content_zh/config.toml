@@ -1,11 +1,11 @@
 [site]
 title = "Xin Guo"
-description = "Xin Guo 的个人网站。"
+description = "Xin Guo 的个人学术网站，研究方向包括岩石冰川动力学、多年冻土、InSAR 与遥感。"
 last_updated = "2026年7月28日"
 
 [author]
 name = "Xin Guo"
-title = "博士生"
+title = "博士研究生"
 institution = """Institute of Geodesy
 Graz University of Technology
 (Technische Universität Graz)"""
@@ -36,22 +36,16 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
+title = "科研项目"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
-title = "奖项"
+title = "专业技能"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
+target = "skills"
+href = "/skills"
 
 [[navigation]]
 title = "简历"

@@ -3,11 +3,11 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Rock Glaciers",
-  "InSAR",
-  "Remote Sensing",
-  "Geospatial Analysis",
-  "Machine Learning"
+  "Rock Glacier Kinematics",
+  "InSAR & Optical Remote Sensing",
+  "Permafrost Geomorphology",
+  "Deep Learning for Earth Observation",
+  "Climate Response in Alpine Regions"
 ]
 
 [[sections]]
@@ -21,4 +21,4 @@ id = "featured_publications"
 type = "publications"
 title = "Selected Publications"
 filter = "selected"
-limit = 3
+limit = 2

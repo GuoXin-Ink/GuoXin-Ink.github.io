@@ -6,11 +6,10 @@ description = "Conference visits, fieldwork, research activities, and other upda
 slug = "personal-website-launch"
 date = "2026-07-28"
 title = "My personal website is now online"
-summary = "I launched this website as a home for my research, publications, teaching, and future fieldwork and conference updates."
+summary = "I launched this website as a home for my research, publications, projects, skills, and future fieldwork and conference updates."
 location = "Graz, Austria"
 cover = "/profile-prism.png"
 content = "news/personal-website-launch.md"
 gallery = [
-  "/profile-prism.png",
-  "/papers/example.png"
+  "/profile-prism.png"
 ]
