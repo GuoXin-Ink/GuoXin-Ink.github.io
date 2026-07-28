@@ -13,15 +13,14 @@ Graz University of Technology
 avatar = "/profile-xin.jpg"
 
 [social]
-# Template contact information. Replace these values with your own details later.
+# Contact information. Remove any field you do not want to display publicly.
 email = "xin.guo@student.tugraz.at"
 location = "Graz, Austria"
 location_url = "https://www.google.com/maps/place/Graz+University+Of+Technology/@47.0641765,15.4527816,185m/data=!3m1!1e3!4m6!3m5!1s0x476e4a85d3955555:0x192b0deae0c79ec4!8m2!3d47.0642547!4d15.4529602!16s%2Fg%2F11hzsvs4ps?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
 location_details = [
   "ST 01 122, Steyrergasse 30,",
-  "8010, Graz, Austria,"
+  "8010, Graz, Austria"
 ]
-google_scholar = "https://scholar.google.com"
 orcid = "https://orcid.org/0000-0002-8748-6036"
 github = "https://github.com/GuoXin-Ink"
 linkedin = "https://www.linkedin.com/in/xin-guo-04334b330/"
