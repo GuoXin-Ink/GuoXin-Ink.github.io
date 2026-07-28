@@ -13,3 +13,53 @@ content = "news/personal-website-launch.md"
 gallery = [
   "/profile-prism.png"
 ]
+
+[[items]]
+slug = "rock-glacier-classification-paper-accepted"
+date = "2026-03-30"
+title = "岩石冰川活动状态分类论文获接收"
+summary = "我们融合光学遥感与 InSAR 数据、利用机器学习开展岩石冰川活动状态分类的研究获 Geo-spatial Information Science 接收。"
+cover = "/news/rock-glacier-paper-accepted-2026/article.jpg"
+content = "news/rock-glacier-classification-paper-accepted.md"
+
+[[items]]
+slug = "alpine-glaciology-meeting-2026"
+date = "2026-02-26"
+title = "参加米兰第 29 届高山冰川学会议"
+summary = "我参加了 AGM 2026。为期两天的会议重点探讨高山冰冻圈的快速变化及相关环境风险。"
+location = "意大利，米兰"
+cover = "/news/alpine-glaciology-meeting-2026/agm-2026.png"
+content = "news/alpine-glaciology-meeting-2026.md"
+
+[[items]]
+slug = "masters-thesis-defense"
+date = "2025-05-20"
+title = "顺利完成硕士学位论文答辩"
+summary = "我在西南交通大学完成硕士学位论文答辩，汇报了基于遥感影像和机器学习的广域石冰川编目与活动状态判识研究。"
+location = "中国，成都"
+cover = "/news/masters-thesis-defense-2025/defense-title.jpg"
+content = "news/masters-thesis-defense.md"
+gallery = [
+  "/news/masters-thesis-defense-2025/group.jpg"
+]
+
+[[items]]
+slug = "easc-summer-workshop-2024"
+date = "2024-07-09"
+title = "入选香港中文大学 EASC 暑期工作坊"
+summary = "我入选香港中文大学地球与大气科学研究部举办的三天学生暑期工作坊。"
+location = "中国，香港"
+cover = "/news/easc-summer-workshop-2024/group.jpg"
+content = "news/easc-summer-workshop-2024.md"
+
+[[items]]
+slug = "insar-workshop-wuhan-2024"
+date = "2024-06-14"
+title = "在第一届雷达干涉测量学术研讨会展示研究"
+summary = "我在会上展示了融合 InSAR、光学影像和机器学习识别完整型与残遗型岩石冰川的研究。"
+location = "中国，武汉"
+cover = "/news/insar-workshop-wuhan-2024/presentation.jpg"
+content = "news/insar-workshop-wuhan-2024.md"
+gallery = [
+  "/news/insar-workshop-wuhan-2024/group.jpg"
+]

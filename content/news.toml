@@ -13,3 +13,53 @@ content = "news/personal-website-launch.md"
 gallery = [
   "/profile-prism.png"
 ]
+
+[[items]]
+slug = "rock-glacier-classification-paper-accepted"
+date = "2026-03-30"
+title = "Our rock glacier activity classification paper has been accepted"
+summary = "Our study integrating optical and InSAR data for machine-learning-based rock glacier activity classification was accepted by Geo-spatial Information Science."
+cover = "/news/rock-glacier-paper-accepted-2026/article.jpg"
+content = "news/rock-glacier-classification-paper-accepted.md"
+
+[[items]]
+slug = "alpine-glaciology-meeting-2026"
+date = "2026-02-26"
+title = "Attending the 29th Alpine Glaciology Meeting in Milan"
+summary = "I attended AGM 2026, a two-day meeting focused on the rapid transformation of the Alpine cryosphere and related environmental hazards."
+location = "Milan, Italy"
+cover = "/news/alpine-glaciology-meeting-2026/agm-2026.png"
+content = "news/alpine-glaciology-meeting-2026.md"
+
+[[items]]
+slug = "masters-thesis-defense"
+date = "2025-05-20"
+title = "Successfully defending my master's thesis"
+summary = "I completed my master's thesis defense at Southwest Jiaotong University, presenting research on large-area rock glacier inventorying and activity-state identification."
+location = "Chengdu, China"
+cover = "/news/masters-thesis-defense-2025/defense-title.jpg"
+content = "news/masters-thesis-defense.md"
+gallery = [
+  "/news/masters-thesis-defense-2025/group.jpg"
+]
+
+[[items]]
+slug = "easc-summer-workshop-2024"
+date = "2024-07-09"
+title = "Selected for the EASC Student Summer Workshop 2024"
+summary = "I was selected to join the three-day Earth and Atmospheric Sciences student summer workshop at The Chinese University of Hong Kong."
+location = "Hong Kong, China"
+cover = "/news/easc-summer-workshop-2024/group.jpg"
+content = "news/easc-summer-workshop-2024.md"
+
+[[items]]
+slug = "insar-workshop-wuhan-2024"
+date = "2024-06-14"
+title = "Presenting at the First Symposium on Radar Interferometry"
+summary = "I presented research combining InSAR and optical imagery with machine learning to identify intact and relict rock glaciers."
+location = "Wuhan, China"
+cover = "/news/insar-workshop-wuhan-2024/presentation.jpg"
+content = "news/insar-workshop-wuhan-2024.md"
+gallery = [
+  "/news/insar-workshop-wuhan-2024/group.jpg"
+]
