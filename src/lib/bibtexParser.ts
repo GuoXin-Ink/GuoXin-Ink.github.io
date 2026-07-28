@@ -120,6 +120,12 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
     // Sort by year (descending), then by month if available
     if (b.year !== a.year) return b.year - a.year;
 
+    // Keep ongoing work ahead of already published work from the same year.
+    if (a.status !== b.status) {
+      if (a.status === 'published') return 1;
+      if (b.status === 'published') return -1;
+    }
+
     // For month comparison, treat missing months as January (1) to ensure they appear last within the year
     const monthA = typeof a.month === 'string' ?
       (monthMapping[a.month.toLowerCase()] || parseInt(a.month) || 1) :
