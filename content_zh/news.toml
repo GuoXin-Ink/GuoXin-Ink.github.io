@@ -3,18 +3,6 @@ title = "动态"
 description = "记录会议访问、野外工作、科研活动及其他近况。"
 
 [[items]]
-slug = "personal-website-launch"
-date = "2026-07-28"
-title = "我的个人网站正式上线"
-summary = "这个网站将用于整理我的研究、论文、科研项目和专业技能，以及今后的野外工作与会议动态。"
-location = "奥地利，格拉茨"
-cover = "/profile-prism.png"
-content = "news/personal-website-launch.md"
-gallery = [
-  "/profile-prism.png"
-]
-
-[[items]]
 slug = "rock-glacier-classification-paper-accepted"
 date = "2026-03-30"
 title = "岩石冰川活动状态分类论文获接收"
@@ -58,8 +46,8 @@ date = "2024-06-14"
 title = "在第一届雷达干涉测量学术研讨会展示研究"
 summary = "我在会上展示了融合 InSAR、光学影像和机器学习识别完整型与残遗型岩石冰川的研究。"
 location = "中国，武汉"
-cover = "/news/insar-workshop-wuhan-2024/presentation.jpg"
+cover = "/news/insar-workshop-wuhan-2024/group.jpg"
 content = "news/insar-workshop-wuhan-2024.md"
 gallery = [
-  "/news/insar-workshop-wuhan-2024/group.jpg"
+  "/news/insar-workshop-wuhan-2024/presentation.jpg"
 ]
