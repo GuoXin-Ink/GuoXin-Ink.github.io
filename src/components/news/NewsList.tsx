@@ -65,7 +65,7 @@ export default function NewsList({ config, embedded = false }: NewsListProps) {
                       src={item.cover}
                       alt=""
                       fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-[1.025]"
+                      className={`${item.coverFit === 'contain' ? 'object-contain p-2' : 'object-cover'} transition-transform duration-300 group-hover:scale-[1.025]`}
                       sizes="(max-width: 768px) 100vw, 224px"
                     />
                   </div>

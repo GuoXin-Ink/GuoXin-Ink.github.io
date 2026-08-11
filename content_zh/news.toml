@@ -3,6 +3,15 @@ title = "动态"
 description = "记录会议访问、野外工作、科研活动及其他近况。"
 
 [[items]]
+slug = "scientific-data-rock-glacier-inventory-accepted"
+date = "2026-07-28"
+title = "东南青藏高原大尺度石冰川编目论文获 Scientific Data 接收"
+summary = "我们利用深度学习和高分辨率影像构建东南青藏高原大尺度石冰川编目的研究获 Scientific Data 接收，我是论文第一作者。"
+cover = "/news/scientific-data-paper-accepted-2026/article.jpg"
+coverFit = "contain"
+content = "news/scientific-data-rock-glacier-inventory-accepted.md"
+
+[[items]]
 slug = "rock-glacier-classification-paper-accepted"
 date = "2026-03-30"
 title = "石冰川活动状态分类论文获接收"

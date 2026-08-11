@@ -87,7 +87,7 @@ export default function NewsDetailClient({ dataByLocale, defaultLocale }: NewsDe
             alt={post.title}
             fill
             priority
-            className="object-cover"
+            className={post.coverFit === 'contain' ? 'object-contain p-4' : 'object-cover'}
             sizes="(max-width: 896px) 100vw, 896px"
           />
         </div>
