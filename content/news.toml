@@ -9,6 +9,8 @@ title = "Our large-scale rock glacier inventory paper was accepted by Scientific
 summary = "Our first-author study used deep learning and high-resolution imagery to build a large-scale rock glacier inventory for the Southeastern Tibetan Plateau."
 cover = "/news/scientific-data-paper-accepted-2026/article.jpg"
 coverFit = "contain"
+coverWidth = 639
+coverHeight = 261
 content = "news/scientific-data-rock-glacier-inventory-accepted.md"
 
 [[items]]
@@ -17,6 +19,9 @@ date = "2026-03-30"
 title = "Our rock glacier activity classification paper has been accepted"
 summary = "Our study integrating optical and InSAR data for machine-learning-based rock glacier activity classification was accepted by Geo-spatial Information Science."
 cover = "/news/rock-glacier-paper-accepted-2026/article.jpg"
+coverFit = "contain"
+coverWidth = 1590
+coverHeight = 563
 content = "news/rock-glacier-classification-paper-accepted.md"
 
 [[items]]

@@ -9,6 +9,8 @@ title = "东南青藏高原大尺度石冰川编目论文获 Scientific Data 接
 summary = "我们利用深度学习和高分辨率影像构建东南青藏高原大尺度石冰川编目的研究获 Scientific Data 接收，我是论文第一作者。"
 cover = "/news/scientific-data-paper-accepted-2026/article.jpg"
 coverFit = "contain"
+coverWidth = 639
+coverHeight = 261
 content = "news/scientific-data-rock-glacier-inventory-accepted.md"
 
 [[items]]
@@ -17,6 +19,9 @@ date = "2026-03-30"
 title = "石冰川活动状态分类论文获接收"
 summary = "我们融合光学遥感与 InSAR 数据、利用机器学习开展石冰川活动状态分类的研究获 Geo-spatial Information Science 接收。"
 cover = "/news/rock-glacier-paper-accepted-2026/article.jpg"
+coverFit = "contain"
+coverWidth = 1590
+coverHeight = 563
 content = "news/rock-glacier-classification-paper-accepted.md"
 
 [[items]]

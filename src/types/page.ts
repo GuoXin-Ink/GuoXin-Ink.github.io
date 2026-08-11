@@ -37,6 +37,8 @@ export interface NewsItemConfig {
     location?: string;
     cover?: string;
     coverFit?: 'cover' | 'contain';
+    coverWidth?: number;
+    coverHeight?: number;
     content: string;
     gallery?: string[];
 }

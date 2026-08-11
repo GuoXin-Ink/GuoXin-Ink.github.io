@@ -81,16 +81,30 @@ export default function NewsDetailClient({ dataByLocale, defaultLocale }: NewsDe
       </header>
 
       {post.cover && (
-        <div className="relative mb-9 aspect-[16/9] overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
-          <Image
-            src={post.cover}
-            alt={post.title}
-            fill
-            priority
-            className={post.coverFit === 'contain' ? 'object-contain p-4' : 'object-cover'}
-            sizes="(max-width: 896px) 100vw, 896px"
-          />
-        </div>
+        post.coverFit === 'contain' ? (
+          <div className="mb-9 overflow-hidden rounded-lg border border-neutral-200 bg-white p-4 shadow-sm sm:p-6 dark:border-neutral-700">
+            <Image
+              src={post.cover}
+              alt={post.title}
+              width={post.coverWidth || 1600}
+              height={post.coverHeight || 900}
+              priority
+              className="h-auto w-full object-contain"
+              sizes="(max-width: 896px) 100vw, 896px"
+            />
+          </div>
+        ) : (
+          <div className="relative mb-9 aspect-[16/9] overflow-hidden rounded-lg bg-neutral-100 dark:bg-neutral-800">
+            <Image
+              src={post.cover}
+              alt={post.title}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 896px) 100vw, 896px"
+            />
+          </div>
+        )
       )}
 
       <div className="prose-news text-neutral-700 dark:text-neutral-300">
