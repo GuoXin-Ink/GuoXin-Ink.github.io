@@ -68,6 +68,9 @@ export default function SelectedPublications({ publications, title, enableOnePag
                     </motion.div>
                 ))}
             </div>
+            <p className="mt-3 text-xs text-neutral-500 dark:text-neutral-500">
+                <sup>†</sup> {messages.publications.correspondingAuthor}
+            </p>
         </motion.section>
     );
 }

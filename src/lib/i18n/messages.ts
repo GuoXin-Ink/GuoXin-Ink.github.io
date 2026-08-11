@@ -41,6 +41,7 @@ export interface LocaleMessages {
     abstract: string;
     bibtex: string;
     code: string;
+    correspondingAuthor: string;
   };
   footer: {
     lastUpdated: string;
@@ -91,6 +92,7 @@ const en: LocaleMessages = {
     abstract: 'Abstract',
     bibtex: 'BibTeX',
     code: 'Code',
+    correspondingAuthor: 'Corresponding author',
   },
   footer: {
     lastUpdated: 'Last updated',
@@ -141,6 +143,7 @@ const zh: LocaleMessages = {
     abstract: '摘要',
     bibtex: 'BibTeX',
     code: '代码',
+    correspondingAuthor: '通讯作者',
   },
   footer: {
     lastUpdated: '最近更新',

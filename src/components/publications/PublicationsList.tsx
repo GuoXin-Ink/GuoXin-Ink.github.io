@@ -72,6 +72,9 @@ export default function PublicationsList({ config, publications, embedded = fals
                         {config.description}
                     </p>
                 )}
+                <p className="mt-2 text-xs text-neutral-500 dark:text-neutral-500">
+                    <sup>†</sup> {messages.publications.correspondingAuthor}
+                </p>
             </div>
 
             {/* Search and Filter Controls */}
