@@ -81,3 +81,19 @@ content = "news/insar-workshop-wuhan-2024.md"
 gallery = [
   "/news/insar-workshop-wuhan-2024/presentation.jpg"
 ]
+
+[[items]]
+slug = "gongga-rock-glacier-fieldwork-2023"
+date = "2023-07-06"
+title = "Conducting UAV surveys of rock glaciers near Mount Gongga"
+summary = "I surveyed two rock glaciers near Zimei Pass using a UAV to collect high-resolution imagery for subsequent mapping and analysis."
+location = "Zimei Pass, Mount Gongga, China"
+cover = "/news/gongga-rock-glacier-fieldwork-2023/group.jpg"
+coverFit = "contain"
+coverWidth = 690
+coverHeight = 518
+content = "news/gongga-rock-glacier-fieldwork-2023.md"
+gallery = [
+  "/news/gongga-rock-glacier-fieldwork-2023/rock-glacier.jpg"
+]
+galleryFit = "contain"

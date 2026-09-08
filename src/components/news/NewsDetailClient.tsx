@@ -150,7 +150,7 @@ export default function NewsDetailClient({ dataByLocale, defaultLocale }: NewsDe
                   src={image}
                   alt={`${post.title} - ${galleryLabel} ${index + 1}`}
                   fill
-                  className="object-cover object-top"
+                  className={post.galleryFit === 'contain' ? 'object-contain p-2' : 'object-cover object-top'}
                   sizes="(max-width: 640px) 100vw, 448px"
                 />
               </div>

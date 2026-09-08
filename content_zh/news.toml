@@ -81,3 +81,19 @@ content = "news/insar-workshop-wuhan-2024.md"
 gallery = [
   "/news/insar-workshop-wuhan-2024/presentation.jpg"
 ]
+
+[[items]]
+slug = "gongga-rock-glacier-fieldwork-2023"
+date = "2023-07-06"
+title = "在贡嘎山子梅垭口开展石冰川无人机调查"
+summary = "我利用无人机对贡嘎山子梅垭口附近的两个石冰川开展航测，采集用于后续制图与分析的高分辨率影像。"
+location = "中国，贡嘎山子梅垭口"
+cover = "/news/gongga-rock-glacier-fieldwork-2023/group.jpg"
+coverFit = "contain"
+coverWidth = 690
+coverHeight = 518
+content = "news/gongga-rock-glacier-fieldwork-2023.md"
+gallery = [
+  "/news/gongga-rock-glacier-fieldwork-2023/rock-glacier.jpg"
+]
+galleryFit = "contain"

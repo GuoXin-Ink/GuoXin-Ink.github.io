@@ -41,6 +41,7 @@ export interface NewsItemConfig {
     coverHeight?: number;
     content: string;
     gallery?: string[];
+    galleryFit?: 'cover' | 'contain';
 }
 
 export interface NewsPageConfig extends BasePageConfig {
