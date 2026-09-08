@@ -3,6 +3,22 @@ title = "News"
 description = "Conference visits, fieldwork, research activities, and other updates."
 
 [[items]]
+slug = "permacost-training-school-trafoi-2026"
+date = "2026-08-31"
+title = "Participating in the PermaCOST Training School in Trafoi"
+summary = "I joined a week-long PhD training school combining rock glacier inventorying, remote sensing, geophysics, and field surveying in the Italian Alps."
+location = "Trafoi, Italy"
+cover = "/news/permacost-training-school-trafoi-2026/group.jpg"
+coverFit = "contain"
+coverWidth = 1800
+coverHeight = 1350
+content = "news/permacost-training-school-trafoi-2026.md"
+gallery = [
+  "/news/permacost-training-school-trafoi-2026/classroom.jpg",
+  "/news/permacost-training-school-trafoi-2026/landscape.jpg"
+]
+
+[[items]]
 slug = "scientific-data-rock-glacier-inventory-accepted"
 date = "2026-07-28"
 title = "Our large-scale rock glacier inventory paper was accepted by Scientific Data"

@@ -3,6 +3,22 @@ title = "动态"
 description = "记录会议访问、野外工作、科研活动及其他近况。"
 
 [[items]]
+slug = "permacost-training-school-trafoi-2026"
+date = "2026-08-31"
+title = "参加在 Trafoi 举办的 PermaCOST 暑期培训学校"
+summary = "我参加了为期一周的博士生培训，围绕石冰川编目、遥感、地球物理与野外测量开展理论学习和实践。"
+location = "意大利，Trafoi"
+cover = "/news/permacost-training-school-trafoi-2026/group.jpg"
+coverFit = "contain"
+coverWidth = 1800
+coverHeight = 1350
+content = "news/permacost-training-school-trafoi-2026.md"
+gallery = [
+  "/news/permacost-training-school-trafoi-2026/classroom.jpg",
+  "/news/permacost-training-school-trafoi-2026/landscape.jpg"
+]
+
+[[items]]
 slug = "scientific-data-rock-glacier-inventory-accepted"
 date = "2026-07-28"
 title = "东南青藏高原大尺度石冰川编目论文获 Scientific Data 接收"
