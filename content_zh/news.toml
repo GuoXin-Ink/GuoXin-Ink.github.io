@@ -19,6 +19,22 @@ gallery = [
 ]
 
 [[items]]
+slug = "hohe-tauern-fieldwork-2026"
+date = "2026-08-25"
+title = "在 Hohe Tauern 国家公园开展野外调查"
+summary = "我考察了多个高山多年冻土与石冰川区域，将野外观测与石冰川运动的遥感研究相结合。"
+location = "奥地利，Hohe Tauern 国家公园"
+cover = "/news/hohe-tauern-fieldwork-2026/group.jpg"
+coverFit = "contain"
+coverWidth = 1800
+coverHeight = 1350
+content = "news/hohe-tauern-fieldwork-2026.md"
+gallery = [
+  "/news/hohe-tauern-fieldwork-2026/landscape.jpg",
+  "/news/hohe-tauern-fieldwork-2026/equipment.jpg"
+]
+
+[[items]]
 slug = "scientific-data-rock-glacier-inventory-accepted"
 date = "2026-07-28"
 title = "东南青藏高原大尺度石冰川编目论文获 Scientific Data 接收"

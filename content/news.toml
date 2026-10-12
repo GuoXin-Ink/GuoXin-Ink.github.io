@@ -19,6 +19,22 @@ gallery = [
 ]
 
 [[items]]
+slug = "hohe-tauern-fieldwork-2026"
+date = "2026-08-25"
+title = "Fieldwork in Hohe Tauern National Park"
+summary = "I visited high-alpine permafrost and rock glacier sites to connect field observations with my remote-sensing research on rock glacier kinematics."
+location = "Hohe Tauern National Park, Austria"
+cover = "/news/hohe-tauern-fieldwork-2026/group.jpg"
+coverFit = "contain"
+coverWidth = 1800
+coverHeight = 1350
+content = "news/hohe-tauern-fieldwork-2026.md"
+gallery = [
+  "/news/hohe-tauern-fieldwork-2026/landscape.jpg",
+  "/news/hohe-tauern-fieldwork-2026/equipment.jpg"
+]
+
+[[items]]
 slug = "scientific-data-rock-glacier-inventory-accepted"
 date = "2026-07-28"
 title = "Our large-scale rock glacier inventory paper was accepted by Scientific Data"
